@@ -4,7 +4,6 @@ import { PowerIcon } from '@heroicons/react/24/outline';
 
 export default function RightNav() {
   return (
-    
     <div className="flex h-full flex-col ">
       <Link
         className="mb-2 flex h-20 items-end justify-start  bg-blue-600 p-4 md:h-40"
