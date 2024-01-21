@@ -11,7 +11,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={`${inter.className} antialiased h-screen flex flex-col`}>
-        <div className="flex-grow flex flex-col gap-2 h-screen overflow-hidden md:flex-row">
+        <div className="flex-grow flex flex-col gap-1 h-screen overflow-hidden md:flex-row bg-zinc-900">
           <div className="w-full max-h-full flex-none md:w-72">
             <SideNav />
           </div>
